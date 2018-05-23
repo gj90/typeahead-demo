@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+        <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <!-- Custom JS/CSS here -->
+        <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all" />
+        <script src="assets/js/custom.js" type="text/javascript" ></script>
+        
+        <title>Typeahead Demo</title>
+    </head>
+    <body>
+
+        <!-- Header -->
+        <section class="header-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>Typeahead Demo</h1>
+                        <input id="github-user" placeholder="Enter a username..." autocomplete="off">
+                    </div>
+                </div>
+            </div>
+        </section><!-- Header -->
+
+        <!-- Main content -->
+        <section class="main-wrapper">
+            <div class="container">
+                <div class="row show-desktop">
+                    <div class="col-xs-12 col-sm-3"><h3>Repositories:</h3></div>
+                    <div class="col-xs-12 col-sm-9"><h3>Contributions: <span class="github-repo"></span></h3></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 show-mobile"><h3>Repositories:</h3></div>
+                    <div class="col-xs-12 col-sm-3 main-wrapper-repo"><h4 class="instructional">Repos will appear here!</h4></div>
+
+                    <div class="col-xs-12 col-sm-9 show-mobile"><h3>Contributions: <span class="github-repo"></span></h3></div>
+                    <div class="col-xs-12 col-sm-9">
+                        <div class="instructional"><h4>Contributions chart will appear here once you select the repo.</h4></div>
+                        <div class="ct-chart"></div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Main content -->
+        
+    </body>
+</html>
+
+
